@@ -1,0 +1,72 @@
+
+
+body {
+    background-color: #706363;
+}
+
+section {
+    height: 125vh;
+}
+section {
+    text-align: center;
+}
+.section-head {
+    padding-top: 5%;
+}
+.jumbotron {
+    text-align: center;
+    height: 90vh;
+    background-color: #151547;
+}
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.landing-Img img {
+    height: 50%;
+    width: 50%;
+}
+
+.p-icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#projects {
+    background-color: aliceblue;
+}
+
+
+@media only screen and (min-width: 900px) {
+    
+section {
+    height: 100vh;
+}
+
+#aboutMe {
+    height: 100vh;
+}
+    .hero {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+    .landing-Img img {
+        height: auto;
+        width: auto;
+    }
+   .p-icon-container{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   }
+
+   .about-icon {
+       margin: 5% 10% !important;
+   }
+  }
