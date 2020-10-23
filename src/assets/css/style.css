@@ -4,9 +4,7 @@ body {
     background-color: #706363;
 }
 
-section {
-    height: 125vh;
-}
+
 section {
     text-align: center;
 }
@@ -40,6 +38,96 @@ section {
     background-color: aliceblue;
 }
 
+/*card start*/
+
+.card-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5% 2.5%;
+}
+
+.card {
+    background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 25px;
+      border: none;
+  border-radius: 2.5% !important;
+  margin: 2.5% 2.5%;
+  width: 85% !important;
+}
+
+
+  
+
+   .left {
+    border-top-left-radius: 2.5% !important;
+    border-bottom-left-radius: 2.5% !important;
+   }
+
+   .right {
+    border-top-right-radius: 2.5% !important;
+    border-bottom-right-radius: 2.5% !important;
+   }
+
+  .card p {
+      font-size: 15px;
+      font-weight: 700;
+      color: hsl(233, 13%, 49%);
+    }
+  .card h3 {
+      font-size: 1.8em;
+      color: hsl(233, 13%, 49%);
+    }
+
+   .middle-card {
+    height: auto;
+    width: 450px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      border-radius: 2.5% !important;
+      justify-content: center;
+      text-align: center;
+  }
+  
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color: hsl(234, 14%, 74%);
+    height: 1px;
+  }
+  .price-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+  }
+  
+  .price-row h2 {
+      font-size: 1.9em;
+      font-weight: 700;
+  }
+
+  
+  .price {
+      font-size: 4.5em;
+  }
+  ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+/*card start*/
+
 
 @media only screen and (min-width: 900px) {
     
@@ -48,7 +136,7 @@ section {
 }
 
 #aboutMe {
-    height: 100vh;
+    height: 110vh;
 }
     .hero {
         display: flex;
@@ -69,4 +157,74 @@ section {
    .about-icon {
        margin: 5% 10% !important;
    }
+
+   .card-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5%;
+    flex-direction: row;
+}
+
+.card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 450px;
+    height: auto;
+    margin: 0 0  !important;
+    padding: 2em !important;
+
+    
+}
+.price-row h2 {
+    font-size: 2.3em;
+    font-weight: 700;
+    margin: 10% 0%;
+}
+
+.card p {
+    font-size: 1.2em;
+    font-weight: 700;
+   
+  }
+.card h3 {
+    font-size: 1.8em;
+    margin: 5% 0%;
+    font-weight: 500;
+    
+   
+  }
+.card li {
+    font-size: 1.3em;
+}
+
+.profileRow {
+    display: flex;
+    flex-direction: row;
+}
+
+#profileImg {
+    margin-left: 25em;
+}
+
+.skill-border{
+    margin: 0% 0%;
+}
+
+.skill-container  {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0%;
+    margin-left: 40%;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+}
+
   }

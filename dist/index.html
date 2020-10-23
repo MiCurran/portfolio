@@ -12,20 +12,296 @@
   <meta property="og:image" content="">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
   <!-- Page body begins here-->
-
-  <div class="grid grid-flow-col grid-cols-3 grid-rows-3 gap-4">
-    <div>1</div>
-    <!-- ... -->
-    <div>9</div>
-  </div>
-  
-  <!--Place scripts below here-->
+  <!--Navbar begins here-->
+  <nav class="navbar navbar-expand-lg navbar-dark info-color" style="background-color: #224dc2 !important" id="landing">
+    <a class="navbar-brand" href="#">Michael Curran</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+               <a class="nav-link waves-effect waves-light" href="#landing">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="#aboutMe">About Me</a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="#projects">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="#">Resume</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+  <!--/Navbar-->
  
+    <div class="hero jumbotron jumbotron-fluid align-items-center justify-content-center text-white">
+     
+      <div class="landing-Img">
+        <img src="./images/programmerMesa de trabajo 1@1x.png" alt="programmer image" class="img-fluid">
+      </div>
+      <div class="mt-2">
+      <h1 class="display-4 mt-2">Hello, I am <strong>Michael Curran</strong></h1>
+      <h1 class="display-4">I am a <strong>Fullstack</strong> web developer!</h1>
+
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr class="my-2">
+      <p class="lead">
+        <a class="btn btn-primary btn-lg rounded-lg shadow" href="#projects" role="button">View my Work</a>
+      </p>
+    </div>
+    
+    </div>
+  
+  <!--About me begins here-->
+<section id="aboutMe">
+<div class="d-flex flex-row justify-content-center">
+  <h2>ABOUT ME</h2>
+</div>
+
+<div class="p-icon-container">
+  <div class="about-icon mx-5">
+    <i class="fas fa-rocket fa-5x"></i>
+    <h3>Fast</h3>
+    <p>Text example that talks about the heading you know how it goes</p>
+  </div>
+  <div class="about-icon mx-5">
+    <i class="fas fa-rocket fa-5x"></i>
+    <h3>Responsive</h3>
+    <p>Text example that talks about the heading you know how it goes</p>
+  </div>
+  <div class="about-icon mx-5">
+    <i class="fas fa-rocket fa-5x"></i>
+    <h3>Intuitive</h3>
+    <p>Text example that talks about the heading you know how it goes</p>
+  </div>
+  <div class="about-icon mx-5">
+    <i class="fas fa-rocket fa-5x"></i>
+    <h3>Unique</h3>
+    <p>Text example that talks about the heading you know how it goes</p>
+  </div>
+</div>
+<div class="profileRow">
+  <div><img src="./images/github.png" alt="profile image"id="profileImg"></div>
+<div class="skill-container">
+<div class="skill"><span>HTML & CSS</span><progress max="100" value="90"></progress>
+</div>
+<div class="skill"><span>JavaScript</span><progress max="100" value="90"></progress>
+</div>
+<div class="skill"><span>Typescript</span><progress max="100" value="90"></progress>
+</div>
+<div class="skill"><span>HTML & CSS</span><progress max="100" value="90"></progress>
+</div>
+<div class="skill"><span>HTML & CSS</span><progress max="100" value="90"></progress>
+</div>
+</div>
+  
+  
+</div>
+</section>
+<!--/About me-->
+
+<!--Projects-->
+<section id="projects">
+  <h2 class="section-head">Projects</h2>
+
+</section>
+<!--/Projects-->
+<!--Skills-->
+<section id="skills">
+  <h2 class="section-head">Skills & Tools</h2>
+  <div class="card-row">
+    <div class="card left shadow">
+      <i class="fas fa-palette fa-3x"></i>
+      <div class="price-row"><h2 class="price price-monthly"id ="left-card">Designer</h2></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. </p>
+      <hr>
+      <h3>What I like to create</h3>
+      <p>Logos, UI, UX, Web, Mobile</p>
+      <h3>Design Toolkit</h3>
+      <ul>
+        <li>Adobe Illustrator</li>
+        <li>Adobe Photoshop</li>
+        <li>Adobe XD</li>
+        <li>Figma</li>
+        <li>Webflow</li>
+        <li>Adobe XD</li>
+      </ul>
+    </div>
+      
+    <div class="card middle-card shadow-lg">
+      <i class="fas fa-laptop-code fa-3x"></i>
+     <div class="price-row"><h2 class="price price-monthly"id ="middle-card">Front End Developer</h2></div>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. </p>
+     <hr>
+     <h3>Languages I use</h3>
+      <p>HTML5, CSS, Javascript, Typescript</p>
+      <h3>Developer Tools</h3>
+      <ul>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <li>Tailwind</li>
+        <li>Gulp</li>
+        <li>Visual Studio Code</li>
+        <li>Github</li>
+        <li>Codepen</li>      
+      </ul>
+    </div>
+      
+    <div class="card right shadow">
+      <i class="fas fa-server fa-3x"></i>
+      <div class="price-row"><h2 class="price price-monthly"id ="right-card">Back End Developer</h2></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. </p>
+      <hr>
+      <h3>Languages I use</h3>
+      <p>Javascript, Typescript, C++, Python</p>
+      <h3>Developer Toolbelt</h3>
+      <ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>Heroku</li>
+        <li>Linux terminal</li>      
+      </ul>
+    </div>
+    </div> 
+</section>
+<!--/Skills-->
+
+<!--footer-->
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small pt-4" style="background-color: #224dc2 !important">
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3 mx-5 justify-content-center">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold ">Get in touch!</h5>
+        <p>Have a question or want to work together?</p>
+        <p>Contact me at <strong>Mcurran1722@gmail.com</strong> or visit the contact page and drop a line!</p>
+        <a href=""><button class="btn btn-sm btn-primary rounded-lg">CONTACT</button></a>
+
+      </div>
+       <!-- Grid column -->
+
+       <hr class="clearfix w-100 d-md-none">
+
+       <!-- Grid column -->
+       <div class="col-md-3 mx-auto">
+ 
+         <!-- Links -->
+         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+ 
+         <ul class="list-unstyled">
+           <li>
+             <a href="#landing">Home</a>
+           </li>
+           <li>
+             <a href="#aboutMe">About Me</a>
+           </li>
+           <li>
+             <a href="#projects">Portfolio</a>
+           </li>
+           <li>
+             <a href="#!">Contact</a>
+           </li>
+           <li>
+            <a href="#!">Resume</a>
+          </li>
+         </ul>
+ 
+       </div>
+       <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+</footer>
+<!-- Footer -->
+<footer class="page-footer font-small" style="background-color: #224dc2 !important">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+           <!--Linkedin -->
+           <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Github -->
+          <a class="gh-ic">
+            <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Codepen-->
+          <a class="codepen-ic">
+            <i class="fab fa-codepen fa-lg white-text mr-d-5 mr-5 fa-2x"> </i>
+          </a>
+           <!-- Twitter -->
+           <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+</footer>
+<!-- Footer -->
+<!--/footer-->
+  <!--Place scripts below here-->
+ <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
   <script src="./assets/js/main.js"></script>
   <script> src="./assets/js/animations/animations.js"</script>
 </body> 

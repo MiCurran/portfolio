@@ -27,7 +27,7 @@
 <body>
   <!-- Page body begins here-->
   <!--Navbar begins here-->
-  <nav class="navbar navbar-expand-lg navbar-dark info-color">
+  <nav class="navbar navbar-expand-lg navbar-dark info-color" style="background-color: #224dc2 !important" id="landing">
     <a class="navbar-brand" href="#">Michael Curran</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,13 +35,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-               <a class="nav-link waves-effect waves-light" href="#">Home <span class="sr-only">(current)</span></a>
+               <a class="nav-link waves-effect waves-light" href="#landing">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect waves-light" href="#">About Me</a>
+              <a class="nav-link waves-effect waves-light" href="#aboutMe">About Me</a>
           </li>
             <li class="nav-item">
-                <a class="nav-link waves-effect waves-light" href="#">Portfolio</a>
+                <a class="nav-link waves-effect waves-light" href="#projects">Portfolio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link waves-effect waves-light" href="#">Contact</a>
@@ -66,7 +66,7 @@
       <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <hr class="my-2">
       <p class="lead">
-        <a class="btn btn-primary btn-lg rounded-lg shadow" href="#" role="button">View my Work</a>
+        <a class="btn btn-primary btn-lg rounded-lg shadow" href="#projects" role="button">View my Work</a>
       </p>
     </div>
     
@@ -100,24 +100,101 @@
     <p>Text example that talks about the heading you know how it goes</p>
   </div>
 </div>
+<div class="profileRow">
+  <div><img src="./images/github.png" alt="profile image"id="profileImg"></div>
+<div class="skill-container">
+<div class="skill"><span>HTML & CSS</span><progress max="100" value="90"></progress>
+</div>
+<div class="skill"><span>JavaScript</span><progress max="100" value="90"></progress>
+</div>
+<div class="skill"><span>Typescript</span><progress max="100" value="90"></progress>
+</div>
+<div class="skill"><span>HTML & CSS</span><progress max="100" value="90"></progress>
+</div>
+<div class="skill"><span>HTML & CSS</span><progress max="100" value="90"></progress>
+</div>
+</div>
+  
+  
+</div>
 </section>
 <!--/About me-->
 
 <!--Projects-->
 <section id="projects">
   <h2 class="section-head">Projects</h2>
+
 </section>
 <!--/Projects-->
 <!--Skills-->
 <section id="skills">
   <h2 class="section-head">Skills & Tools</h2>
+  <div class="card-row">
+    <div class="card left shadow">
+      <i class="fas fa-palette fa-3x"></i>
+      <div class="price-row"><h2 class="price price-monthly"id ="left-card">Designer</h2></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. </p>
+      <hr>
+      <h3>What I like to create</h3>
+      <p>Logos, UI, UX, Web, Mobile</p>
+      <h3>Design Toolkit</h3>
+      <ul>
+        <li>Adobe Illustrator</li>
+        <li>Adobe Photoshop</li>
+        <li>Adobe XD</li>
+        <li>Figma</li>
+        <li>Webflow</li>
+        <li>Adobe XD</li>
+      </ul>
+    </div>
+      
+    <div class="card middle-card shadow-lg">
+      <i class="fas fa-laptop-code fa-3x"></i>
+     <div class="price-row"><h2 class="price price-monthly"id ="middle-card">Front End Developer</h2></div>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. </p>
+     <hr>
+     <h3>Languages I use</h3>
+      <p>HTML5, CSS, Javascript, Typescript</p>
+      <h3>Developer Tools</h3>
+      <ul>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <li>Tailwind</li>
+        <li>Gulp</li>
+        <li>Visual Studio Code</li>
+        <li>Github</li>
+        <li>Codepen</li>      
+      </ul>
+    </div>
+      
+    <div class="card right shadow">
+      <i class="fas fa-server fa-3x"></i>
+      <div class="price-row"><h2 class="price price-monthly"id ="right-card">Back End Developer</h2></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. </p>
+      <hr>
+      <h3>Languages I use</h3>
+      <p>Javascript, Typescript, C++, Python</p>
+      <h3>Developer Toolbelt</h3>
+      <ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>Heroku</li>
+        <li>Linux terminal</li>      
+      </ul>
+    </div>
+    </div> 
 </section>
 <!--/Skills-->
 
 <!--footer-->
 <!-- Footer -->
 <!-- Footer -->
-<footer class="page-footer font-small teal pt-4">
+<footer class="page-footer font-small pt-4" style="background-color: #224dc2 !important">
 
   <!-- Footer Text -->
   <div class="container-fluid text-center text-md-left">
@@ -147,13 +224,13 @@
  
          <ul class="list-unstyled">
            <li>
-             <a href="#!">Home</a>
+             <a href="#landing">Home</a>
            </li>
            <li>
-             <a href="#!">About Me</a>
+             <a href="#aboutMe">About Me</a>
            </li>
            <li>
-             <a href="#!">Projects</a>
+             <a href="#projects">Portfolio</a>
            </li>
            <li>
              <a href="#!">Contact</a>
@@ -173,7 +250,7 @@
   <!-- Footer Text -->
 </footer>
 <!-- Footer -->
-<footer class="page-footer font-small cyan darken-3">
+<footer class="page-footer font-small" style="background-color: #224dc2 !important">
 
   <!-- Footer Elements -->
   <div class="container">
