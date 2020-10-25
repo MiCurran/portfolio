@@ -59,19 +59,19 @@
       <div class="landing-Img">
         <img src="./images/programmerMesa de trabajo 1@1x.png" alt="programmer image" class="img-fluid">
       </div>
-      <div class="mt-2">
-      <h1 class="display-4 mt-2">Hello, I am <strong>Michael Curran</strong></h1>
-      <h1 class="display-4">I am a <strong>Fullstack</strong> web developer!</h1>
-
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-2">
-      <p class="lead">
-        <a class="btn btn-primary btn-lg rounded-lg shadow" href="#projects" role="button">View my Work</a>
-      </p>
+      <div class="mt-2 terminal ">
+        <div class="overlay">
+          <input type="text">
+          <input type="text" id="input2">
+          <p class="lead">
+            <a class="btn btn-primary btn-lg rounded-lg shadow" href="#projects" role="button">View my Work</a></p>
+          </div> 
+          
     </div>
     
     </div>
-  
+    
+
   <!--About me begins here-->
 <section id="aboutMe">
 <div class="d-flex flex-row justify-content-center">
@@ -79,50 +79,95 @@
 </div>
 
 <div class="p-icon-container">
-  <div class="about-icon mx-5">
-    <i class="fas fa-rocket fa-5x"></i>
+  <div class="about-icon">
+    <i class="fas fa-tachometer-alt fa-5x"></i>
     <h3>Fast</h3>
-    <p>Text example that talks about the heading you know how it goes</p>
+    <p>Fast load times and lag free User Experience will always be high priority.</p>
   </div>
-  <div class="about-icon mx-5">
-    <i class="fas fa-rocket fa-5x"></i>
+  <div class="about-icon">
+    <i class="fas fa-laptop fa-5x"></i>
     <h3>Responsive</h3>
-    <p>Text example that talks about the heading you know how it goes</p>
+    <p>My work is designed to look great on any device, no matter the size.</p>
   </div>
-  <div class="about-icon mx-5">
-    <i class="fas fa-rocket fa-5x"></i>
+  <div class="about-icon">
+    <i class="fas fa-lightbulb fa-5x"></i>
     <h3>Intuitive</h3>
-    <p>Text example that talks about the heading you know how it goes</p>
+    <p>Easy to use and intuitive UI/UX are paramount to my work. </p>
   </div>
-  <div class="about-icon mx-5">
-    <i class="fas fa-rocket fa-5x"></i>
+  <div class="about-icon">
+    <i class="fas fa-palette fa-5x"></i>
     <h3>Unique</h3>
-    <p>Text example that talks about the heading you know how it goes</p>
+    <p>I love making content come to life and create exciting new things for each of my projects</p>
   </div>
 </div>
 <div class="profileRow">
-  <div><img src="./images/github.png" alt="profile image"id="profileImg"></div>
-<div class="skill-container">
-<div class="skill"><span>HTML & CSS</span><progress max="100" value="90"></progress>
-</div>
-<div class="skill"><span>JavaScript</span><progress max="100" value="90"></progress>
-</div>
-<div class="skill"><span>Typescript</span><progress max="100" value="90"></progress>
-</div>
-<div class="skill"><span>HTML & CSS</span><progress max="100" value="90"></progress>
-</div>
-<div class="skill"><span>HTML & CSS</span><progress max="100" value="90"></progress>
-</div>
-</div>
+  <div><img src="./images/profile.jpg" alt="profile image"id="profileImg"></div>
+  <div class="skill-card rounded-lg">
+    
+    <div class="skill-container">
+   <p>I'm a Full-stack Developer working freelance on platforms like Upwork. I have a serious passion for creating unique and memorable user experiences 
+     through intuitive and dynamic UI.
+   </p>
+   <a href="#skills"><button class="btn btn-lg btn-primary rounded-pill">View my developer toolbelt</button></a>
+   </div>
+   <div class="skill">
+    <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML & CSS</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
+    </div>
+   
+    <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">NODE.JS</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">ANGULAR</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 85%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">MONGODB</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 55%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">MYSQL</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">ADOBE CREATIVE SUITE</div>
+    </div>
+   </div>
+  </div>
+ 
   
   
 </div>
+
 </section>
 <!--/About me-->
 
 <!--Projects-->
 <section id="projects">
   <h2 class="section-head">Projects</h2>
+
+  <div class="project-container">
+  <div class="project-row">
+    <div class="project shadow-lg rounded-lg" id="1">
+      <img src="./images/desktopview.png" alt="screenshot" class="img-fluid">
+      <h4>Floyd Skiff</h4><p  class="project-subhead">Website redesign + Ecommerce</p>
+      <p >The Client was looking for a complete overhaul of their Squarespace website for better responsiveness to mobile devices. Since the redesign, the client has seen greatly increased retention rates.</p>
+    </div>    
+  </div>
+</div>
+<div class="project-row">
+  <div class="project shadow-lg rounded-lg" id="3">
+    <img src="./images/logoshowL-abr@1x.png" alt="screenshot" class="img-fluid">
+    <h4>Deltona Tile</h4><p class="project-subhead">Logo Creation</p>
+    <p>The client was looking for a logo that could be printed on staff uniforms and also be used for letterhead and invoicing forms using a "bold and retro" style.</p>
+  </div>
+  <div class="project shadow-lg rounded-lg" id="4">
+    <img src="./images/peacefarmpreview.png" alt="screenshot" class="img-fluid">
+    <h4>Peace Farm</h4><p class="project-subhead">Website creation</p>
+    <p>This site was created for a holistic healing farm. The client requested a clean and simple user interface with the ability to book appointments for their customers.</p>
+  </div>
+</div>
 
 </section>
 <!--/Projects-->
@@ -133,7 +178,7 @@
     <div class="card left shadow">
       <i class="fas fa-palette fa-3x"></i>
       <div class="price-row"><h2 class="price price-monthly"id ="left-card">Designer</h2></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. </p>
+      <p class="card-content"> I enjoy creating clean sensible graphics and value thoughtfully crafted UI/UX   </p>
       <hr>
       <h3>What I like to create</h3>
       <p>Logos, UI, UX, Web, Mobile</p>
@@ -144,14 +189,14 @@
         <li>Adobe XD</li>
         <li>Figma</li>
         <li>Webflow</li>
-        <li>Adobe XD</li>
+        <li>Huion H610 Pro</li>
       </ul>
     </div>
       
     <div class="card middle-card shadow-lg">
       <i class="fas fa-laptop-code fa-3x"></i>
      <div class="price-row"><h2 class="price price-monthly"id ="middle-card">Front End Developer</h2></div>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. </p>
+     <p class="card-content">I like coding things from scratch and I love creating intuitive but unique User Experiences and Interfaces </p>
      <hr>
      <h3>Languages I use</h3>
       <p>HTML5, CSS, Javascript, Typescript</p>
@@ -171,7 +216,7 @@
     <div class="card right shadow">
       <i class="fas fa-server fa-3x"></i>
       <div class="price-row"><h2 class="price price-monthly"id ="right-card">Back End Developer</h2></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. </p>
+      <p class="card-content">I enjoy developing and consuming API's as well as writing server side and business logic to create persistent and consistent user data</p>
       <hr>
       <h3>Languages I use</h3>
       <p>Javascript, Typescript, C++, Python</p>
@@ -266,11 +311,11 @@
             <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
           <!-- Github -->
-          <a class="gh-ic">
+          <a href="https://github.com/micurran" target="blank" class="gh-ic">
             <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
           <!-- Codepen-->
-          <a class="codepen-ic">
+          <a href="https://codepen.com/micurran" target="blank" class="codepen-ic">
             <i class="fab fa-codepen fa-lg white-text mr-d-5 mr-5 fa-2x"> </i>
           </a>
            <!-- Twitter -->
@@ -304,6 +349,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
   <script src="./assets/js/main.js"></script>
   <script> src="./assets/js/animations/animations.js"</script>
+
 </body> 
 <!-- End page body-->
 

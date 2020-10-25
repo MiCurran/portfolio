@@ -1,9 +1,12 @@
 
 
 body {
-    background-color: #706363;
+    background-color:  aliceblue;
 }
 
+#aboutMe {
+    background-color:  aliceblue;
+}
 
 section {
     text-align: center;
@@ -35,7 +38,8 @@ section {
 }
 
 #projects {
-    background-color: aliceblue;
+    background-color: #151547;
+    height: auto;
 }
 
 /*card start*/
@@ -62,8 +66,41 @@ section {
   width: 85% !important;
 }
 
+.skill-card {
+    width: auto;
+    height: 30em;
+    margin: 2.5% 10%;
+    text-align: center;
+      padding: 25px;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      background-color: #000055;
+      color: #ffffff;
+    
+ 
+}
 
-  
+.progress-bar {
+    line-height: 27px;
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+.skill .progress {
+    margin: 2%;
+}
+
 
    .left {
     border-top-left-radius: 2.5% !important;
@@ -82,8 +119,14 @@ section {
     }
   .card h3 {
       font-size: 1.8em;
-      color: hsl(233, 13%, 49%);
+      color:  #224dc2;
     }
+
+    .card i, .card hr {
+        color: #224dc2;
+
+    }
+    
 
    .middle-card {
     height: auto;
@@ -129,6 +172,64 @@ hr {
 /*card start*/
 
 
+.project-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.terminal {
+    background-image: url(terminalArtboard1@1x.png);
+    background-size: cover;
+    background-position: 0% 20%;
+    width: auto;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    position: relative;
+    top: 5em;
+    background-color: #000055;
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 20em;
+    padding: 0%;
+    font-size:1em;
+  }
+  .lead {
+    position: relative;
+    bottom: -5em;
+}
+
+.project {
+    margin: 2.5% 0%;
+    background-color: aliceblue;
+}
+
+.project h4 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.project-subhead {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.project-desc {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#profileImg {
+    border-radius: 50%;
+    height: 55%;
+}
+
 @media only screen and (min-width: 900px) {
     
 section {
@@ -151,13 +252,22 @@ section {
    .p-icon-container{
        display: flex;
        flex-direction: row;
-       justify-content: center;
+       justify-content: space-between;
    }
 
    .about-icon {
-       margin: 5% 10% !important;
+       margin: 5% 0% !important;
    }
 
+   .about-icon h3 {
+       font-size: 2.6em;
+       font-weight: 600;
+       margin: 5% 0%;
+   }
+   .about-icon p {
+       padding: 0% 10%;
+       font-size: 1.5em;
+   }
    .card-row {
     display: flex;
     align-items: center;
@@ -209,6 +319,7 @@ section {
 
 #profileImg {
     margin-left: 25em;
+    margin-top: 15%;
 }
 
 .skill-border{
@@ -218,13 +329,96 @@ section {
 .skill-container  {
     display: flex;
     flex-direction: column;
-    margin: 0% 0%;
-    margin-left: 40%;
+    margin: 5% 0%;
+    margin-left: 0%;
+    justify-content: space-between;
+}
+
+.skill-container p {
+    margin:  0%;
+    font-size: 1.4em;
+    margin-bottom: 5%;
 }
 
 .skill {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2em ;
+    margin-top: 0%;
+}
+.progress-bar {
+    line-height: 27px;
+    font-weight: 700;
+    font-size: 2em;
+    
+}
+.progress {
+    position: relative;
+    height: 35px;
+    width: 50em;
 }
 
+
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0% 0%;
+    
+}
+
+.terminal {
+    background-image: url(terminalArtboard1@1x.png);
+    background-size: cover;
+    background-position: 0% 20%;
+    width: 50em;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    position: relative;
+    top: 5em;
+    background-color: #000055;
+    color: #ffffff;
+    border: none;
+    height: 100px;
+    width: 600px;
+    padding: 0%;
+    font-size:2.1em;
   }
+.lead {
+    position: relative;
+    bottom: -75%;
+}
+.skill-card {
+    width: 80em;
+    height: 25em;
+    margin: 0% 10%;
+    text-align: center;
+      padding: 25px;
+      border: none;
+      display: flex;
+      flex-direction: row;
+      background-color: #000055;
+      color: #ffffff;
+    
+ 
+}
+.project {
+    width: 50em;
+}
+
+.project-desc {
+   padding: 0% 10%;
+}
+
+.card-content {
+    margin: 0% 15%;
+    margin-bottom: 5%
+}
+
+}
