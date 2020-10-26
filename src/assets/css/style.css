@@ -37,6 +37,11 @@ section {
     text-align: center;
 }
 
+.about-icon p {
+    padding: 2% 20%;
+    
+}
+
 #projects {
     background-color: #151547;
     height: auto;
@@ -68,37 +73,17 @@ section {
 
 .skill-card {
     width: auto;
-    height: 30em;
-    margin: 2.5% 10%;
+    height: auto;
+    margin: 0% 5%;
     text-align: center;
       padding: 25px;
       border: none;
       display: flex;
       flex-direction: column;
-      background-color: #000055;
+      background-color: #151547;
       color: #ffffff;
     
  
-}
-
-.progress-bar {
-    line-height: 27px;
-    font-weight: 500;
-    font-size: 1.3em;
-    text-align: left;
-    padding-left: 10px;
-    
-}
-
-.skill {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 8%;
-}
-
-.skill .progress {
-    margin: 2%;
 }
 
 
@@ -230,14 +215,71 @@ input {
     height: 55%;
 }
 
+.contact-form{
+    background: #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+    margin-top: -20%;
+}
+.contact-form h3{
+    margin-bottom: 0%;
+    margin-top: -20%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    position: relative;
+    top: 20em;
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
+.btnContactSubmit
+{
+    position: relative;
+    top: 25em;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc !important;
+    border: none;
+    cursor: pointer;
+}
+
 @media only screen and (min-width: 900px) {
     
 section {
     height: 100vh;
 }
 
-#aboutMe {
-    height: 110vh;
+#aboutMe , #contact{
+    height: auto;
 }
     .hero {
         display: flex;
@@ -260,19 +302,19 @@ section {
    }
 
    .about-icon h3 {
-       font-size: 2.6em;
+       font-size: 2em;
        font-weight: 600;
        margin: 5% 0%;
    }
    .about-icon p {
-       padding: 0% 10%;
-       font-size: 1.5em;
+       padding: 0% 20%;
+       font-size: 1em;
    }
    .card-row {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2.5%;
+    margin-top: 0%;
     flex-direction: row;
 }
 
@@ -283,7 +325,6 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 450px;
     height: auto;
     margin: 0 0  !important;
     padding: 2em !important;
@@ -291,25 +332,25 @@ section {
     
 }
 .price-row h2 {
-    font-size: 2.3em;
+    font-size: 1.8em;
     font-weight: 700;
     margin: 10% 0%;
 }
 
 .card p {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700;
    
   }
 .card h3 {
-    font-size: 1.8em;
+    font-size: 1.2em;
     margin: 5% 0%;
     font-weight: 500;
     
    
   }
 .card li {
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .profileRow {
@@ -331,7 +372,7 @@ section {
     flex-direction: column;
     margin: 5% 0%;
     margin-left: 0%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .skill-container p {
@@ -347,24 +388,13 @@ section {
     margin-left: 2em ;
     margin-top: 0%;
 }
-.progress-bar {
-    line-height: 27px;
-    font-weight: 700;
-    font-size: 2em;
-    
-}
-.progress {
-    position: relative;
-    height: 35px;
-    width: 50em;
-}
 
 
 
 .project-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0% 0%;
     
 }
@@ -397,19 +427,19 @@ input {
 .skill-card {
     width: 80em;
     height: 25em;
-    margin: 0% 10%;
+    margin: 0% 20%;
     text-align: center;
       padding: 25px;
       border: none;
       display: flex;
       flex-direction: row;
-      background-color: #000055;
+      background-color: #151547;
       color: #ffffff;
     
  
 }
 .project {
-    width: 50em;
+    width: 30em;
 }
 
 .project-desc {
@@ -418,7 +448,62 @@ input {
 
 .card-content {
     margin: 0% 15%;
-    margin-bottom: 5%
+    margin-bottom: 0%
+}
+
+.contact-form{
+    background: #fff;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+    margin-top: 0%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -14%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    position: relative;
+    top: 5em;
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc !important;
+    border: none;
+    cursor: pointer;
 }
 
 }
