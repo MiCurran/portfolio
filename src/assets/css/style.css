@@ -69,6 +69,7 @@ section {
   border-radius: 2.5% !important;
   margin: 2.5% 2.5%;
   width: 85% !important;
+  height: 43rem !important;
 }
 
 .skill-card {
@@ -122,6 +123,7 @@ section {
       border-radius: 2.5% !important;
       justify-content: center;
       text-align: center;
+      z-index: 2;
   }
   
 hr {
@@ -205,10 +207,6 @@ input {
     font-size: 1.2em;
 }
 
-.project-desc {
-    font-size: 1.3em;
-    font-weight: 400;
-}
 
 #profileImg {
     border-radius: 50%;
@@ -495,9 +493,12 @@ section {
 
 .project-row {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0% 0%;
+    align-items: center;
+    margin: 0% 2%;
+    margin-bottom: 0%;
     
 }
 
