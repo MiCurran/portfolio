@@ -182,7 +182,7 @@
        through intuitive and dynamic UI.
      </p>
      <h4>Check out what I've been working on!</h4>
-     <a href="#project-row"><button class="btn btn-lg btn-primary rounded-pill">View my projects</button></a>
+     <a href="#filter-buttons"><button class="btn btn-lg btn-primary rounded-pill">View my projects</button></a>
      </div>
     </div>
    
@@ -195,26 +195,33 @@
 
 <!--Projects-->
 <section id="projects">
+  <div id="filter-buttons">
+    <button class="btn btn-primary rounded-lg active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn btn-primary rounded-lg" onclick="filterSelection('websites')"> Websites</button>
+  <button class="btn btn-primary rounded-lg" onclick="filterSelection('design')"> Design</button>
+  <button class="btn btn-primary rounded-lg" onclick="filterSelection('mock-ups')"> Mock-ups</button>
+  <button class="btn btn-primary rounded-lg" onclick="filterSelection('games')"> Games</button>
+  </div>
    <div class="project-container">
   <div class="project-row" id="project-row"> 
-    <div class="project shadow-lg rounded-lg" id="1">
+    <div class="project shadow-lg rounded-lg filterProjects websites" id="1">
       <img src="./images/desktopview.png" alt="screenshot" class="img-fluid">
       <h4>Floyd Skiff</h4><p  class="project-subhead">Website redesign + Ecommerce</p>
       <p class="project-desc">The Client was looking for a complete overhaul of their Squarespace website for better responsiveness to mobile devices. Since the redesign, the client has seen greatly increased retention rates.</p>
     <a href="http://www.floydskiff.com" target="blank"><button class="btn btn-sm btn-primary rounded-lg">Check it out!</button></a>
     </div>   
-    <div class="project shadow-lg rounded-lg" id="3">
+    <div class="project shadow-lg rounded-lg filterProjects design" id="3">
       <img src="./images/logoshowL-abr@1x.png" alt="screenshot" class="img-fluid">
       <h4>Deltona Tile</h4><p class="project-subhead">Logo Creation</p>
       <p class="project-desc"> The client was looking for a logo that could be printed on staff uniforms and also be used for letterhead and invoicing forms using a "bold and retro" style.</p>
     </div> 
-    <div class="project shadow-lg rounded-lg" id="4">
+    <div class="project shadow-lg rounded-lg filterProjects websites" id="4">
       <img src="./images/peacefarmpreview.png" alt="screenshot" class="img-fluid">
       <h4>Peace Farm</h4><p class="project-subhead">Website creation</p>
       <p class="project-desc">This site was created for a holistic healing farm. The client requested a clean and simple user interface with the ability to book appointments for their customers.</p>
       <a href="http://peacefarmhealing.com" target="blank"><button class="btn btn-sm btn-primary rounded-lg">Check it out!</button></a>
     </div>
-    <div class="project shadow-lg rounded-lg" id="4">
+    <div class="project shadow-lg rounded-lg filterProjects design mock-ups" id="4">
       <img src="./images/pricingmockup.png" alt="screenshot" class="img-fluid">
       <h4>Pricing Component</h4><p class="project-subhead">Mock-up</p>
       <p class="project-desc">Mock-up of a pricing component with monthly/yearly toggle switch. Challenge from the website <a href="http://frontendmentor.io" target="blank">Front End Mentor </p>
@@ -224,7 +231,7 @@
 
    </div>
     </div>
-    <div class="project shadow-lg rounded-lg" id="4">
+    <div class="project shadow-lg rounded-lg filterProjects design mock-ups" id="4">
       <img src="./images/socialMock.png" alt="screenshot" class="img-fluid">
       <h4>Social Media Dashboard</h4><p class="project-subhead">Mock-up</p>
       <p class="project-desc">Mock-up of a dashboard for social media with a light and dark theme toggle. Challenge from the website <a href="http://frontendmentor.io" target="blank">Front End Mentor</a></p>
@@ -234,7 +241,7 @@
 
       </div>
     </div>
-    <div class="project shadow-lg rounded-lg" id="4">
+    <div class="project shadow-lg rounded-lg filterProjects games" id="4">
       <img src="./images/classicSnake.png" alt="screenshot" class="img-fluid">
       <h4>Classic Snake Game</h4><p class="project-subhead">Simple Javascript Game</p>
       <p class="project-desc">Classic snake game. Use the arrow keys or wasd to move your snake and collect fruit the more you eat the more you grow!</p>

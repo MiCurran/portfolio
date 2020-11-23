@@ -372,6 +372,30 @@ input {
     transform: translateX(-10px);
   }
 
+  .filterProjects {
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  .project {
+    margin: 2.5% 0%;
+    background-color: aliceblue;
+}
+
+.project h4 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.project-subhead {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
 @media only screen and (min-width: 900px) {
     
 section {
