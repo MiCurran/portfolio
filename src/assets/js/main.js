@@ -37,7 +37,7 @@ var write2 = function(){
 }
 
 setTimeout(function(){write()},length);
-setTimeout(function(){write2()},length2);
+setTimeout(function(){setTimeout(function(){write2()},length2)},2500);
 
 var quadrantItems = document.querySelectorAll('.quadrant__item');
 var svgs = document.querySelectorAll('svg');
