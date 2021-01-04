@@ -5,7 +5,7 @@ input.value="";
 input2.select();
 input2.value="";
 var text = "Hello, I'm Michael Curran";
-var text2 = "I am a Fullstack web developer!"
+var text2 = "I'm a web developer!"
 var l=text.length;
 var el2 = text2.length;
 var current = 0;

@@ -494,7 +494,8 @@ section {
 .skill-container  {
     display: flex;
     flex-direction: column;
-    margin: 5% 0%;
+    margin: 2.5% 0%;
+    padding: 0% 5%;
     margin-left: 0%;
     justify-content: center;
 }
@@ -502,7 +503,7 @@ section {
 .skill-container p {
     margin:  0%;
     font-size: 1.4em;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .skill {
