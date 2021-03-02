@@ -514,8 +514,6 @@ section {
     margin-top: 0%;
 }
 
-
-
 .project-row {
     display: flex;
     flex-wrap: wrap;
@@ -564,7 +562,6 @@ input {
       background-color: #151547;
       color: #ffffff;
     
- 
 }
 .project {
     width: 30em;
@@ -633,5 +630,4 @@ input {
     border: none;
     cursor: pointer;
 }
-
 }
