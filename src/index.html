@@ -24,6 +24,20 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-J30V3X5RBX"></script>
+<script>
+  /**
+  * Function that captures a click on an outbound link in Analytics.
+  * This function takes a valid URL string as an argument, and uses that URL string
+  * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+  * using 'navigator.sendBeacon' in browser that support it.
+  */
+  var captureOutboundLink = function(url) {
+     ga('send', 'event', 'outbound', 'click', url, {
+       'transport': 'beacon',
+       'hitCallback': function(){document.location = url;}
+     });
+  }
+  </script>
 
   <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -202,7 +216,7 @@
         web can be difficult. Even more so, as a self-taught developer, one of the bi...
       </p>
       <div>
-        <a href="https://micurran.hashnode.dev/my-favorite-learning-resources-as-a-self-taught-web-developer" target="blank"><button class="btn btn-sm btn-primary rounded-lg">Check it out!</button></a>
+        <a href="https://micurran.hashnode.dev/my-favorite-learning-resources-as-a-self-taught-web-developer" onclick="captureOutboundLink('https://micurran.hashnode.dev/my-favorite-learning-resources-as-a-self-taught-web-developer'); return false;" target="blank"><button class="btn btn-sm btn-primary rounded-lg">Check it out!</button></a>
       </div>
     </div>
     <div class="project shadow-lg rounded-lg filterProjects react" id="4">
